@@ -1,0 +1,4 @@
+	for i = 1,500 do
+		game.Workspace[InsertPlayerName.Text].HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector
+		wait()
+	end
